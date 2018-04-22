@@ -38,19 +38,22 @@
 }
 
 .main{
-    background-color: #1f2833;
+    /* background-color: #1f2833; */
+    background-image: url("images/2test2.png");
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 90px);
     /* border: 1px solid pink; */
     justify-content: space-around;
     /* align-items: center; */
-    padding: 20px;
+    padding: 60px;
+    background-size: auto calc(100vh - 90px);
+    background-position: center; 
 
 }
 
 h1{
-    font-size: 50px;
+    font-size: 60px;
     align-content: center;
     align-self: center;
     /* border: 1px solid purple; */
@@ -67,7 +70,7 @@ h1{
 }
 
 .steps{
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +84,7 @@ h1{
     flex-direction: column;
     /* justify-content: space-around; */
     align-items: center;
-    width:180px;
+    width:220px;
     color: #c5c6c7;
 
     /* border: 1px solid lightgreen; */
@@ -89,17 +92,18 @@ h1{
 }
 
 .steps_header{
-    font-size: 45px;
+    font-size: 65px;
     font-weight: 800;
 
-    /* border: 1px solid salmon; */
+    /* border: 1px solid purple; */
  
  }
  
 .steps_disc{
-   font-size: 22px;
+   font-size: 24px;
    text-align: center;
    font-weight: 500;
+   padding: 10px 0;
 
    /* border: 1px solid salmon; */
 
