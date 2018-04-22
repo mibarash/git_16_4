@@ -39,7 +39,7 @@
 
 .main{
     /* background-color: #1f2833; */
-    background-image: url("images/2test2.png");
+    background-image: url("images/2test4.png");
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 90px);
