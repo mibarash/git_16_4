@@ -44,7 +44,7 @@
 
 .main{
     /* background-color: #1f2833; */
-    background-image: url("images/2test4.png");
+    background-image: url("images/main_bg_test.jpg");
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 90px);
@@ -52,7 +52,7 @@
     justify-content: space-around;
     /* align-items: center; */
     padding: 60px;
-    background-size: auto calc(100vh - 90px);
+    background-size: cover;
     background-position: center; 
 
 }
@@ -146,7 +146,7 @@ h1{
     /* align-items: center; */
     padding-top: 50px;
     padding-left: 120px;
-    /* width: 800px; */
+    min-width: calc(100vw - 400px);
     /* flex-grow: 5; */
 }
 
@@ -208,6 +208,9 @@ h1{
     /* flex-grow: 1; */
     text-align: center;
     padding-top:calc((100vh - 720px)/2);
+    padding-left: 50px;
+    padding-right: 50px;
+
 
 }
 
