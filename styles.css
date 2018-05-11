@@ -240,14 +240,43 @@ h1{
 
 }
 
+.pre_footer {
+    display:flex;
+    background-color: #1f2833;
+    opacity: 0.95;
+    text-align: left;
+    justify-content: center;
+    color: #c5c6c7;
+
+  }
+
+.pre_footer_col{
+    width:350px;
+    padding: 30px;
+}  
+
+.col_header{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.col_disc{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
 .footer {
     height: 70px;
     display:flex;
-    background-color: #efefef;
+    background-color: #1f2833;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #434343;
+    color: #c5c6c7;
+    font-size: 12px;
+    font-weight: 100;
 
   }
 
@@ -258,7 +287,7 @@ h1{
   .privacy{
     padding:20px;
     text-decoration: none;
-    color: #434343;
+    color: #c5c6c7;
 
 
 
