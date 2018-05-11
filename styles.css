@@ -28,9 +28,15 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     /* border: 1px solid red; */
     /* position: fixed; */
 
+}
+
+.logo{
+    height: 70px;
 }
 
 .nav{
@@ -146,6 +152,7 @@ h1{
     /* align-items: center; */
     padding-top: 50px;
     padding-left: 120px;
+    padding-bottom: 30px;
     min-width: calc(100vw - 400px);
     /* flex-grow: 5; */
 }
@@ -190,6 +197,13 @@ h1{
 .how_steps_disc {
     font-size: 18px;
     font-weight: 100;
+    line-height: 25px;
+}
+
+.how_header_disc {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
 }
 
 .template {
