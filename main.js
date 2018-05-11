@@ -37,8 +37,13 @@ function getUrlParameter(referrers) {
   // This only works for 1 refferer, there shouldn't be more than 1 type of referrer
   if (referrer != false) {
     startNowBtn = document.querySelector('.start_now');
+    siteBtn = document.querySelector('.site_button');
+    bannerBtn = document.querySelector('.banner_link');
+
     // startNowBtn.href = 'http://wix.com?a=1&b=1&s=' + referrer;
     startNowBtn.href = 'http://wixstats.com/?a=16754&c=124&s1=' + referrer;
+    siteBtn.href = 'http://wixstats.com/?a=16754&c=124&s1=' + referrer;
+    bannerBtn.href = 'http://wixstats.com/?a=16754&c=124&s1=' + referrer;
 
   }
 
